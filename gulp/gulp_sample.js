@@ -86,8 +86,15 @@ gulp.task("watch", function(){
 	gulp.watch("src/*.html", ["copyHtml"]);
 });
 
+===============
+IMPORTANT REGARDING ASYNC ERROR ON GULP 4
 
+gulp.task('message', function(done){
+    console.log("Gulp is running...");
+    done();
+});
 
+================
 
 // USEFUL PLUGINS
 /*
