@@ -1,0 +1,16 @@
+{
+  "name": "node_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_server.js",
+  "scripts": {
+    "start": "node node_server.js",
+    "dev": "nodemon node_server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}

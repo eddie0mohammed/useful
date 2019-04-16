@@ -1,0 +1,5 @@
+
+
+//packages to install
+
+npm install --save-dev bootstrap clean-webpack-plugin css-loader file-loader html-loader html-webpack-plugin jquery mini-css-extract-plugin node-sass optimize-css-assets-webpack-plugin popper.js sass-loader style-loader webpack webpack-cli webpack-dev-server webpack-merge
